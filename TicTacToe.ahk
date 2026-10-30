@@ -11,6 +11,7 @@ global GlobalDiagonalPoint, SpotsTaken
 if (SpotsTaken.MaxIndex() >= 9) then
 {
 	Msgbox, what happened???
+	return
 }
 
 for index, value in SpotsTaken
